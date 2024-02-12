@@ -1,0 +1,1000 @@
+  105  ls
+  106  vim docker-compose.yaml 
+  107  docker start cc3f4976809c -e LOCALHOST_OVERRIDE=18.201.56.69
+  108  docker start cc3f4976809c
+  109  exit
+  110  docker ps -a
+  111  ssh ansible@localhost -p 2221
+  112  ls
+  113  cd diveintoansible-lab/
+  114  ls
+  115  cat docker-compose.yaml 
+  116  ssh ansible@localhost -p 2221
+  117  logout
+  118  docker ps -a
+  119  docker restart $(docker ps -f "status=exited" -q)
+  120  docker ps -a
+  121  docker restart $(docker ps -f "status=exited" -q)
+  122  docker ps -a
+  123  ssh ansible@localhost -p 2221
+  124  ls
+  125  cat diveintoansible-lab/docker-compose.yaml 
+  126  ssh ansible@localhost -p 2221
+  127  exit
+  128  docker ps -a
+  129  docker restart $(docker ps -f status="Exited" -q)
+  130  docker restart $(docker ps -f "status=exited" -q)
+  131  ssh ansible@localhost -p 2221
+  132  cd diveintoansible-lab/
+  133  ls
+  134  cat docker-compose.yaml 
+  135  exit
+  136  docker ps -a
+  137  exit
+  138  docker ps -a
+  139  ssh ansible@localhost -p 2221
+  140  docker restart $(docker ps -f "status=exited" -q)
+  141  ssh ansible@localhost -p 2221
+  142  exit
+  143  docker restart $(docker ps -f "status=exited" -q)
+  144  ssh ansible@localhost -p 2221
+  145  ssh ansible@localhost -p 2221
+  146  docker restart $(docker ps -f "status=exited" -q)
+  147  ssh ansible@localhost -p 2221
+  148  docker ps -a
+  149  docker restart $(docker ps -f "status=exited" -q)
+  150  ssh ansible@localhost -p 2221
+  151  docker ps -a
+  152  docker exec 0d13c92b49a7 - bash
+  153  docker exec 0d13c92b49a7 --- bash
+  154  docker exec 0d13c92b49a7 -- bash
+  155  docker exec 0d13c92b49a7 bash
+  156  docker exec 0d13c92b49a7 sh
+  157  docker exec -it 0d13c92b49a7 sh
+  158  docker ps -a
+  159  docker exec -it cc3f4976809c bash
+  160  docker exec -it b88f89f7b452 bash
+  161  docker exec -it cc3f4976809c bash
+  162  ssh ansible@localhost -p 2221
+  163  clear
+  164  docker ps -a
+  165  docker exec -it 0d13c92b49a7 bash
+  166  docker exec -it 0d13c92b49a7 -- docker ps
+  167  docker exec -it 0d13c92b49a7 - docker ps
+  168  docker exec -it 0d13c92b49a7 --- docker ps
+  169  docker exec -it 0d13c92b49a7 sh
+  170  docker restart $(docker ps -f "status=exited" -q)
+  171  docker exec -it 0d13c92b49a7 sh
+  172  docker ps -a
+  173  ssh root@localhost -p 2375
+  174  ssh root@localhost -p 2376
+  175  ssh docker
+  176  docker exec -it 0d13c92b49a7 sh
+  177  clear
+  178  docker ps -a
+  179  docker stop 0d13c92b49a7
+  180  docker start 0d13c92b49a7
+  181  docker exec -it 0d13c92b49a7 sh
+  182  ls
+  183  cd diveintoansible-lab/
+  184  ls
+  185  clear
+  186  cat docker-compose.yaml 
+  187  cd ..
+  188  ls
+  189  mkdir new 
+  190  cd new/
+  191  git clone https://github.com/diranetafen/diveintoansible-lab.git
+  192  ls
+  193  cd diveintoansible-lab/
+  194  ls
+  195  cat docker-compose.yaml 
+  196  clear
+  197  vim docker-compose.yaml 
+  198  cd ..
+  199  ls
+  200  git clone https://github.com/neocrym/dind.git
+  201  ls
+  202  cd dind/
+  203  clear
+  204  ls
+  205  cat docker-compose.yml 
+  206  cat ../diveintoansible-lab/docker-compose.yaml 
+  207  vim docker-compose.yml 
+  208  docker ps -a
+  209  docker rm 0d13c92b49a7
+  210  docker rm -f 0d13c92b49a7
+  211  clear
+  212  docker ps -a
+  213  ls
+  214  docker-compose up
+  215  cp docker-compose.yml ../diveintoansible-lab/docker-compose2.yaml 
+  216  cd ../diveintoansible-lab/
+  217  ls
+  218  docker-compose up --help
+  219  docker network ls
+  220  mv docker-compose.yaml docker-compose100.yaml~
+  221  ls
+  222  mv docker-compose2.yaml docker-compose.yaml
+  223  docker-compose up 
+  224  vim docker-compose.yaml 
+  225  cat docker-compose100.yaml 
+  226  vim docker-compose.yaml 
+  227  docker-compose up 
+  228  vim docker-compose.yaml 
+  229  docker-compose up 
+  230  cat docker-compose.yml 
+  231  ls
+  232  cat docker-compose.yml 
+  233  cat docker-compose.yaml
+  234  vim docker-compose.yaml 
+  235  docker-compose up 
+  236  vim docker-compose.yaml 
+  237  docker-compose up 
+  238  vim docker-compose.yaml 
+  239  docker-compose up 
+  240  vim docker-compose.yaml 
+  241  docker-compose up 
+  242  vim docker-compose.yaml 
+  243  docker-compose up 
+  244  vim docker-compose.yaml 
+  245  cat docker-compose.yaml 
+  246  vim docker-compose100.yaml 
+  247  rm docker-compose.yaml 
+  248  mv docker-compose100.yaml docker-compose.yaml 
+  249  docker ps -a
+  250  docker system prune -a -f --volumes
+  251  exit
+  252  docker system prune -a -f --volumes
+  253  cd diveintoansible-lab/
+  254  ls
+  255  cat docker-compose.yaml 
+  256  docker-compose up
+  257  vim docker-compose.yaml 
+  258  docker-compose up
+  259  vim docker-compose.yaml 
+  260  docker-compose up
+  261  vim docker-compose.yaml 
+  262  docker-compose up
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd new/
+  267  ls
+  268  cd ..
+  269  cd di
+  270  cd dind/
+  271  ls
+  272  docker ps -a
+  273  docker rm $(docker ps -f -q)
+  274  docker rm $(docker ps -f "status=up" -q)
+  275  docker rm $(docker ps -f "status=Up" -q)
+  276  docker rm $(docker ps -f "status!=exited" -q)
+  277  docker rm `docker ps -qa`
+  278  docker rm -f `docker ps -qa`
+  279  docker ps -a
+  280  ls
+  281  docker build -t jamesmishra/dind .
+  282  cd ..
+  283  cd diveintoansible-lab/
+  284  ls
+  285  docker ps -a
+  286  docker-compose up
+  287  docker rm -f `docker ps -qa`
+  288  cd diveintoansible-lab/
+  289  ls
+  290  docker-compose up
+  291  docker rm -f `docker ps -qa`
+  292  docker rmi -f `docker ps -qa`
+  293  docker ps -a
+  294  docker system prune -a -f --volume
+  295  docker system prune -a -f --volumes
+  296  cd diveintoansible-lab/
+  297  docker ps -a
+  298  ssh ansible@localhost -p 2221
+  299  exit
+  300  docker images
+  301  docker images -a
+  302  docker ps -a
+  303  cd diveintoansible-lab/
+  304  ls
+  305  docker-compose up
+  306  docker system prune -a -f --volumes
+  307  docker rm -f `docker ps -qa`
+  308  ls
+  309  cd ..
+  310  cd dind/
+  311  ls
+  312  docker build -t jamesmishra/dind .
+  313  cd ../diveintoansible-lab/
+  314  docker-compose up
+  315  docker ps -a
+  316  docker restart $(docker ps -f --filter status=exited -q)
+  317  docker restart $(docker ps -f --filter "status=exited" -q)
+  318  docker restart $(docker ps -f "status=exited" -q)
+  319  ssh ansible@localhost -p 2221
+  320  docker ps -a
+  321  docker exec -it 159d701f46f4 bash
+  322  docker ps -a
+  323  docker restart $(docker ps -f status=exited -q)
+  324  docker exec -it 159d701f46f4 bash
+  325  docker ps -a
+  326  docker restart $(docker ps -f status=exited -q)
+  327  docker exec -it 159d701f46f4 bash
+  328  docker ps -a
+  329  docker run -it jamesmishra/dind
+  330  docker ps -a
+  331  docker rm -f 904945026be2
+  332  docker ps -a
+  333  docker exec -it 159d701f46f4 bash
+  334  docker ps -a
+  335  history | grep prune
+  336  docker system prune -a -f --volumes
+  337  history | grep rm
+  338  docker rm -f `docker ps -qa`
+  339  docker ps -a
+  340  ls
+  341  cd diveintoansible-lab/
+  342  ls
+  343  cp docker-compose.yaml docker-compose2.yaml 
+  344  vim docker-compose.yaml 
+  345  docker-compose up
+  346  vim docker-compose.yaml 
+  347  cat docker-compose2.yaml 
+  348  vim docker-compose.yaml 
+  349  docker-compose up
+  350  vim docker-compose.yaml 
+  351  docker-compose up
+  352  docker rm -f `docker ps -qa`
+  353  docker system prune -a -f --volumes
+  354  exit
+  355  docker ps -a
+  356  docker exec -it 2c1157eb823b bash
+  357  ls
+  358  git init
+  359  git add .
+  360  git commit -m "first commit"
+  361  git config --global user.email "sangalamballamichel@gmail.com"
+  362  git config --global user.name "louismichel100"
+  363  git commit -m "first commit"
+  364  git branch -M main
+  365  git remote add origin https://github.com/louismichel100/ansible_course.git
+  366  git push -u origin main
+  367  history > hist.txt
+  368  git add hist.txt 
+  369  git commit -m "second commit"
+  370  git branch -M main
+  371  git remote add origin https://github.com/louismichel100/ansible_course.git
+  372  git push -u origin main
+  373  clear
+  374  docker ps -a
+  375  ssh ansible@localhost -p 2221
+  376  history
+  377  docker system prune -a -f --volumes
+  378  docker rm -f `docker ps -qa`
+  379  docker rmi -f `docker images -qa `
+  380  ls
+  381  cd dind/
+  382  ls
+  383  cat docker-compose.yml 
+  384  cat Dockerfile 
+  385  vim Dockerfile 
+  386  ls
+  387  docker rmi -f `docker images -qa `
+  388  docker-compose up
+  389  cd ../diveintoansible-lab/
+  390  ls
+  391  docker-compose up
+  392  docker ps -a
+  393  ssh ansible@localhost -p 2221
+  394  clear
+  395  docker ps -a
+  396  docker exec -it bb437cd4577b bash
+  397  docker ps -a
+  398  cd diveintoansible-lab/
+  399  ls
+  400  docker-compose up
+  401  docker ps -a
+  402  docker restart $(docker ps -f status=exited -q)
+  403  docker exec -it bb437cd4577b bash
+  404  ssh ansible@localhost -p 2221
+  405  ls
+  406  cat dind/docker-compose.yml 
+  407  exit
+  408  hsitory
+  409  history
+  410  docker images 
+  411  docker system prune -a -f --volumes
+  412  docker rmi d856813063bd 1f85a27b91d1 0e2ec6fa2075 4a98fe475835
+  413  docker rmi -f d856813063bd 1f85a27b91d1 0e2ec6fa2075 4a98fe475835
+  414  docker rm -f `docker ps -qa`
+  415  docker rmi -f d856813063bd 1f85a27b91d1 0e2ec6fa2075 4a98fe475835
+  416  cd diveintoansible-lab/
+  417  ls
+  418  cd config/
+  419  ls
+  420  cd ../ansible_home/
+  421  ls
+  422  cd ubuntuc
+  423  cd ubuntu-c/
+  424  ls
+  425  cd ansible/
+  426  ls
+  427  cd ansible-expert-training/
+  428  ls
+  429  cd lab-4/
+  430  ls
+  431  cd ../../../../../
+  432  ls
+  433  vim docker-compose.yaml 
+  434  doccker ps -a
+  435  docker ps -a
+  436  docker images
+  437  docker-compose up
+  438  cd diveintoansible-lab/
+  439  ls
+  440  docker-compose up
+  441  docker ps -a
+  442  ssh ansible@localhost -p 2221
+  443  history
+  444  docker rmi -f `docker images -qa `
+  445  docker rm -f `docker ps -qa`
+  446  docker rmi -f `docker images -qa `
+  447  docker system prune -a -f --volumes
+  448  ls
+  449  cd dind/
+  450  ls
+  451  vim Dockerfile 
+  452  ls
+  453  cat CODE_OF_CONDUCT.md 
+  454  ls
+  455  cat entrypoint.sh 
+  456  vim entrypoint.sh 
+  457  ls
+  458  cat docker-compose.yml 
+  459  exit
+  460  vim Dockerfile 
+  461  cd dind/
+  462  vim Dockerfile 
+  463  ls
+  464  docker-compose up
+  465  cd ../diveintoansible-lab/
+  466  ls
+  467  vim docker-compose.yaml 
+  468  docker-compose up
+  469  docker ps -a
+  470  docker -H tcp://docker:2375 ps
+  471  cd dind/
+  472  vim docker-compose.yml 
+  473  cd ../diveintoansible-lab/
+  474  vim docker-compose.yaml 
+  475  docker exec -it 165c2f372d9c --- bash
+  476  docker exec -it 165c2f372d9c bash
+  477  clear
+  478  ls
+  479  docker-compose up
+  480  docker ps -a
+  481  ssh localhost -p 2375
+  482  ssh ansible@localhost -p 2221
+  483  docker -H tcp://docker:2375 ps
+  484  docker -H tcp://localhost:2375 ps
+  485  docker -H tcp://docker:53 ps
+  486  docker -H tcp://localhost:53 ps
+  487  docker -H tcp://localhost:2375 ps
+  488  docker system prune -a -f --volumes
+  489  docker rmi -f `docker images -qa `
+  490  docker rm -f `docker ps -qa`
+  491  docker rmi -f `docker images -qa `
+  492  cd dind/
+  493  ls
+  494  vim Dockerfile 
+  495  vim docker-compose.yml 
+  496  docker volume create dind_volume
+  497  vim docker-compose.yml 
+  498  docker images
+  499  docker ps -a
+  500  docker-compose --help
+  501  docker-compose port
+  502  cd ../diveintoansible-lab/
+  503  ls
+  504  vim docker-compose
+  505  vim docker-compose.yaml 
+  506  cd ../dind/
+  507  vim docker-compose.yaml 
+  508  ls
+  509  vim docker-compose.yml 
+  510  cd ../diveintoansible-lab/
+  511  vim docker-compose.yml 
+  512  vim docker-compose.yaml 
+  513  cd ../dind/
+  514  vim docker-compose.yaml 
+  515  ls
+  516  vim docker-compose.yaml 
+  517  rm docker-compose.yaml 
+  518  rm docker-compose.yml 
+  519  vim docker-compose.yml 
+  520  docker-compose up
+  521  docker rmi -f `docker images -qa `
+  522  docker rm -f `docker ps -qa`
+  523  docker system prune -a -f --volumes
+  524  vim docker-compose.yml 
+  525  cd ../diveintoansible-lab/
+  526  vim docker-compose.yaml 
+  527  cd ../dind/
+  528  vim docker-compose.yaml 
+  529  vim docker-compose.yml 
+  530  docker-compose up
+  531  docker ps -a
+  532  docker exec -it 165c2f372d9c bash
+  533  docker system prune -a -f --volumes
+  534  docker rm -f `docker ps -qa`
+  535  docker rmi -f `docker images -qa `
+  536  cd dind/
+  537  ls
+  538  vim docker-compose.yml 
+  539  vim Dockerfile 
+  540  docker-compose up -d
+  541  docker ps -a
+  542  docker exec -it 92d851f13063 bash
+  543  history | grep rm
+  544  docker rm -f `docker ps -qa`
+  545  docker rmi -f `docker
+  546  history | grep syst
+  547  docker system prune -a -f --volumes
+  548  ls
+  549  cd diveintoansible-lab/
+  550  ls
+  551  vim docker-compose2.yaml 
+  552  docker ps -a
+  553  cd diveintoansible-lab/
+  554  ls
+  555  vim docker-compose.yaml 
+  556  docker-compose up -d
+  557  ls
+  558  cd ../dind/
+  559  ls
+  560  cp Dockerfile ../diveintoansible-lab/
+  561  cp entrypoint.sh ../diveintoansible-lab/
+  562  cd ../diveintoansible-lab/
+  563  ls
+  564  docker-compose up -d
+  565  docker ps -a
+  566  docker-compose start
+  567  docker-compose up 
+  568  vim docker-compose.yaml 
+  569  docker-compose up 
+  570  docker ps -a
+  571  docker exec -it 04b4562eb9e7 bash
+  572  docker -H tcp://docker:2375 ps
+  573  docker -H tcp://docker:2376 ps
+  574  docker -H tcp://0.0.0.0:2375 ps
+  575  docker -H 0.0.0.0:2375 ps
+  576  docker -H tcp://localhost:2375 ps
+  577  docker -H tcp://docker:2375 ps
+  578  docker -H docker:2375 ps
+  579  docker ps
+  580  docker inspect 04b4562eb9e7 | grep IP
+  581  docker -H 172.21.0.6:2375 ps
+  582  docker ps -a
+  583  docker restart `docker ps -f status=exited -q`
+  584  docker inspect 04b4562eb9e7 | grep IP
+  585  docker exec -it 04b4562eb9e7 bash
+  586  docker -H tcp://localhost:2375 ps
+  587  docker -H tcp://docker:2375 ps
+  588  cd diveintoansible-lab/
+  589  vim docker-compose.yaml 
+  590  history
+  591  docker system prune -a -f --volumes
+  592  docker rm -f `docker ps -qa`
+  593  docker rmi -f `docker images -qa `
+  594  docker ps -a
+  595  cd diveintoansible-lab/
+  596  ls
+  597  docker-compose up
+  598  docker ps -a
+  599  docker -H tcp://docker:2375 ps
+  600  ssh ansible@localhost -p 2375
+  601  ssh ansible@localhost -p 2376
+  602  ssh ansible@localhost -p 2221
+  603  docker ps -a
+  604  docker exec -it 111edcfd33b6 bash
+  605  ssh ubuntu1
+  606  docker ps -a
+  607  ssh ansible@localhost -p 2221
+  608  docker system prune -a -f --volumes
+  609  docker rm -f `docker ps -qa`
+  610  docker rmi -f `docker images -qa `
+  611  cd diveintoansible-lab/
+  612  vim docker-compose.yaml 
+  613  docker-compose up
+  614  docker ps -a
+  615  docker exec -it cef4bf993e5e bash --- ls
+  616  docker exec -it cef4bf993e5e bash
+  617  docker exec -it cef4bf993e5e sh --- ls
+  618  docker exec -it cef4bf993e5e sh --- ll
+  619  docker exec -it cef4bf993e5e sh
+  620  docker -H tcp://docker:2375 info
+  621  ssh ansible@localhost -p 2221
+  622  docker -H tcp://docker:2375 info
+  623  docker exec -it cef4bf993e5e sh
+  624  exit
+  625  docker ps -a
+  626  docker exec -it ad22dcad3acf bash 
+  627  ssh ansible@localhost -p 2221
+  628  docker exec -it ad22dcad3acf bash 
+  629  ssh ansible@localhost -p 2221
+  630  docker exec -it ad22dcad3acf bash 
+  631  ssh root@docker
+  632  ssh root@docker -p 2375
+  633  docker exec -it root@ad22dcad3acf bash 
+  634  docker exec -it ad22dcad3acf bash 
+  635  docker system prune -a -f --volumes
+  636  docker rm -f `docker ps -qa`
+  637  docker rmi -f `docker images -qa `
+  638  cd diveintoansible-lab/
+  639  vim docker-compose2.yaml 
+  640  docker-compose up
+  641  docker system prune -a -f --volumes
+  642  docker rm -f `docker ps -qa`
+  643  docker rmi -f `docker images -qa `
+  644  ls
+  645  mv docker-compose.yaml docker-compose_res.yaml
+  646  ls
+  647  mv docker-compose2.yaml docker-compose.yaml
+  648  ls
+  649  docker-compose up
+  650  vim docker-compose.yaml 
+  651  docker-compose up
+  652  docker restart `docker ps -f status=exited -q`
+  653  docker ps -a
+  654  docker restart `docker ps -f status=exited -q`
+  655  ssh ansible@localhost -p 2221
+  656  docker restart `docker ps -f status=exited -q`
+  657  ssh ansible@localhsot -p 2221
+  658  ssh ansible@localhost -p 2221
+  659  cd diveintoansible-lab/
+  660  cat docker-compose.yaml 
+  661  ssh ansible@localhost -p 2221
+  662  docker restart `docker ps -f status=exited -q`
+  663  ssh ansible@localhost -p 2221
+  664  exit
+  665  ssh ansible@localhost -p 2221
+  666  docker restart `docker ps -f status=exited -q`
+  667  ssh ansible@localhost -p 2221
+  668  docker ps -a
+  669  ssh ansible@localhost -p 2221
+  670  docker ps -a
+  671  docker exec -it cef4bf993e5e bash
+  672  ls
+  673  docker ps -a
+  674  docker restart cef4bf993e5e
+  675  docker exec -it cef4bf993e5e bash
+  676  ssh ansible@localhost -p 2221
+  677  docker exec -it cef4bf993e5e bash
+  678  docker ps -a
+  679  docker rm -f cef4bf993e5e
+  680  cd diveintoansible-lab/
+  681  ls
+  682  vim docker-compose.yaml 
+  683  docker-compose up
+  684  docker ps -a
+  685  docker-compose up
+  686  docker ps -a
+  687  docker restart 2ac4109c2fb4
+  688  ssh ansible@localhost -p 2221
+  689  history
+  690  docker system prune -a -f --volumes 
+  691  ls
+  692  history
+  693  docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  694  cd diveintoansible-lab/
+  695  ls
+  696  cd ansible_home/
+  697  ls
+  698  cd ubuntuc
+  699  cd ubuntu-c
+  700  ls
+  701  cd ansible/
+  702  ls
+  703  cd ansible-expert-training/
+  704  ls
+  705  cd lab-4/
+  706  ls
+  707  cd nginx/
+  708  ls
+  709  cd ~
+  710  cd diveintoansible-lab/
+  711  docker-compose up
+  712  docker ps -a
+  713  ssh ansible@localhost -p 2221
+  714  exit
+  715  ssh ansible@localhost -p 2221
+  716  docker ps -a
+  717  docker exec -it 08577fd7e0c8 bash
+  718  docker exec -it 08577fd7e0c8 sh
+  719  ls
+  720  cd diveintoansible-lab/
+  721  ls
+  722  vim docker-compose.yaml 
+  723  ll
+  724  vim .env 
+  725  vim docker-compose.yaml 
+  726  docker ps -a
+  727  docker rm -f 08577fd7e0c8
+  728  vim docker-compose.yaml 
+  729  docker-compose up
+  730  ls
+  731  vim docker-compose_res.yaml 
+  732  history | grep "git clone"
+  733  ls
+  734  mkdir test_dive
+  735  cd test_dive/
+  736  git clone https://github.com/diranetafen/diveintoansible-lab.git
+  737  ls
+  738  cd diveintoansible-lab/
+  739  ls
+  740  vim docker-compose.yaml 
+  741  ls
+  742  cd ..
+  743  docker ps -a
+  744  docker run --privileged --name dind-container -d docker:20.10-dind
+  745  docker ps -a
+  746  docker exec -it c68e3b9bca14 bash
+  747  docker exec -it c68e3b9bca14sh
+  748  docker exec -it c68e3b9bca14 sh
+  749  docker ps -a
+  750  exit
+  751  docker ps -a
+  752  docker rm -f c68e3b9bca14
+  753  cd diveintoansible-lab/
+  754  vim docker-compose.yaml 
+  755  history
+  756  docker system prune -a -f --volumes
+  757  docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  758  docker-compose up
+  759  docker ps -a
+  760  docker exec -it 4ff639a47c64 bash
+  761  docker exec -it 4ff639a47c64 sh
+  762  docker ps -a
+  763  docker run --privileged --name dind-container -d docker:20.10-dind
+  764  docker ps -a
+  765  docker exec -it 6cd2c73afdab sh
+  766  docker ps -a
+  767  cd diveintoansible-lab/
+  768  vim docker-compose.yaml 
+  769  docker inspect docker -f "{{json .NetworkSettings.Networks }}"
+  770  docker inspect dind-container -f "{{json .NetworkSettings.Networks }}"
+  771  docker networks ls
+  772  docker network ls
+  773  docker network connect bridge docker
+  774  history
+  775  docker system prune -a -f --volumes
+  776  docker ps -a
+  777  docker rm -f 4ff639a47c64
+  778  docker rm -f 6cd2c73afdab
+  779  vim docker-compose.yaml 
+  780  docker-compose up
+  781  docker ps -aa
+  782  docker exec -it 9e2ac02b35ba sh
+  783  docker ps -a
+  784  docker rm -f 9e2ac02b35ba
+  785  history
+  786  docker run --privileged --name docker -d docker:20.10-dind
+  787  docker ps -a
+  788  docker exec -it 779fa18f2eee sh
+  789  docker ps -a
+  790  ssh ansible@localhost -p 2221
+  791  docker ps -a
+  792  export DOCKER_HOST=tcp://docker:2375
+  793  docker ps -a
+  794  docker run -it alpine
+  795  exit
+  796  docker ps -a
+  797  docker run -it alpine
+  798  docker run -it spurin/diveintoansible:ubuntu --name ok
+  799  docker run -it spurin/diveintoansible:ubuntu --name ok --priviledge
+  800  history
+  801  docker run -it spurin/diveintoansible:ubuntu --name ok --privileged
+  802  sudo docker run -it spurin/diveintoansible:ubuntu --name ok --privileged
+  803  exit
+  804  docker ps -a
+  805  docker exec -it b68a823ba393 sh
+  806  cd diveintoansible-lab/
+  807  vim docker-compose.yaml 
+  808  history
+  809  docker inspect docker -f "{{json .NetworkSettings.Networks }}"
+  810  docker ps -a
+  811  docker rm -f b68a823ba393
+  812  vim docker-compose.yaml 
+  813  docker ps -a
+  814  docker-compose up
+  815  docker network ls
+  816  vim docker-compose.yaml 
+  817  docker-compose up
+  818  vim docker-compose_res.yaml 
+  819  vim docker-compose.yaml 
+  820  docker-compose up
+  821  ls
+  822  docker ps -a
+  823  docker restart `docker ps -f status=exited -q`
+  824  docker ps -
+  825  docker ps -a
+  826  ssh ansible@localhost -p 2221
+  827  history
+  828  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  829  cd diveintoansible-lab/
+  830  ls
+  831  vim docker-compose.yaml 
+  832  docker-compose up
+  833  docker ps -a
+  834  cd diveintoansible-lab/
+  835  vim docker-compose.yaml 
+  836  docker restart ffdf92f66395
+  837  clear
+  838  docker ps -a
+  839  docker logs ffdf92f66395
+  840  vim docker-compose.yaml 
+  841  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  842  docker-compose up
+  843  docker ps -a
+  844  docker restart `docker ps -f status=exited -q`
+  845  docker ps -a
+  846  docker logs beb9864ab0b2
+  847  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  848  vim docker-compose.yaml 
+  849  docker-compose up
+  850  docker ps -a
+  851  docker exec -it 453adb81deda sh
+  852  ssh ansible@localhost -p 2221
+  853  exit
+  854  docker ps -a
+  855  docker exec -it d4bd9737fef0 sh
+  856  ssh ansible@localhost -p 2221
+  857  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  858  cd diveintoansible-lab/
+  859  vim docker-compose.yaml 
+  860  docker-compose up
+  861  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  862  vim docker-compose.yaml 
+  863  docker-compose up
+  864  ssh ansible@localhost -p 2221
+  865  docker rester `docker ps -f status=exited -q`
+  866  docker restart `docker ps -f status=exited -q`
+  867  ssh ansible@localhost -p 2221
+  868  exit
+  869  ls
+  870  docker restart `docker ps -f status=exited -q`
+  871  ssh ansible@localhost -p 2221
+  872  docker ps -a
+  873  docker restart `docker ps -f status=exited -q`
+  874  docker ps -a
+  875  ssh ansible@localhost -p 2221
+  876  docker ps -a
+  877  docker exec -it ce40ba13e726 bash
+  878  docker restart `docker ps -f status=exited -q`
+  879  docker restart `docker ps -f status=up -q`
+  880  docker restart `docker ps -f status=Up -q`
+  881  docker restart `docker ps -f status=running -q`
+  882  docker ps -a
+  883  ssh ansible@localhost -p 2221
+  884  docker ps -
+  885  docker ps -a
+  886  docker exec -it 81/tcp, :::7685->7681/tcp   centos1
+  887  docker exec -it 453adb81deda sh
+  888  ssh ansible@localhost -p 2221
+  889  docker restart `docker ps -f status=running -q`
+  890  docker ps -a
+  891  ssh ansible@localhost -p 2221
+  892  history
+  893  cd divv
+  894  cd diveintoansible-lab/
+  895  docker system prune -a -f --volumes && docker rm -f `docker ps -qa` && docker rmi -f `docker images -qa `
+  896  docker restart `docker ps -f status=running -q`
+  897  cd diveintoansible-lab/
+  898  docker-compose up
+  899  docker restart `docker ps -f status=exited -q`
+  900  ssh ansible@localhost -p 2221
+  901  docker restart `docker ps -f status=exited -q`
+  902  ssh ansible@localhost -p 2221
+  903  docker ps -a
+  904  docker restart `docker ps -f status=exited -q`
+  905  ssh ansible@localhost -p 2221
+  906  exit
+  907  ssh ansible@localhost -p 2221
+  908  exit
+  909  ssh ansible@localhost -p 2221
+  910  exit
+  911  ssh ansible@localhost -p 2221
+  912  exit
+  913  ssh ansible@localhost -p 2221
+  914  ssh ansible@localhost -p 2221
+  915  ssh ansible@localhost -p 2221
+  916  docker restart `docker ps -f status=exited -q`
+  917  ssh ansible@localhost -p 2221
+  918  exit
+  919  ssh ansible@localhost -p 2221
+  920  exit
+  921  ssh ansible@localhost -p 2221
+  922  exit
+  923  ssh ansible@localhost -p 2221
+  924  docker restart `docker ps -f status=exited -q`
+  925  ssh ansible@localhost -p 2221
+  926  exit
+  927  ssh ansible@localhost -p 2221
+  928  exit
+  929  ssh ansible@localhost -p 2221
+  930  docker restart `docker ps -f status=exited -q`
+  931  ssh ansible@localhost -p 2221
+  932  ls
+  933  cd diveintoansible-lab/
+  934  ls
+  935  git init
+  936  git add .
+  937  git status
+  938  ls
+  939  git add Dockerfile ansible_home/ config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/
+  940  git add Dockerfi config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/
+  941  git add Dockerfile config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/
+  942  git rm --cached test_dive/diveintoansible-lab
+  943  git rm --cached -f test_dive/diveintoansible-lab
+  944  git status
+  945  git add Dockerfile config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/diveintoansible-lab/docker-compose.yaml 
+  946  git branch -M main
+  947  git commit -m "first commit"
+  948  git remote add origin https://github.com/louismichel100/deepdive.git
+  949  git remote remove origin
+  950  git remote add origin https://github.com/louismichel100/deepdive.git
+  951  git commit -m "first commit"
+  952  git add Dockerfile config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/diveintoansible-lab/docker-compose.yaml 
+  953  git commit -m "first commit"
+  954  git add Dockerfile config/ docker-compose.yaml docker-compose_res.yaml entrypoint.sh test_dive/diveintoansible-lab/docker-compose.yaml 
+  955  git commit -m "first commit"
+  956  git branch -M main
+  957  git remote add origin https://github.com/louismichel100/deepdive.git
+  958  git status
+  959  git push -u origin main
+  960  exit
+  961  cd diveintoansible-lab/
+  962  ls
+  963  cd ..
+  964  ssh ansible@localhost -p 2221
+  965  docker ps -a
+  966  docker restart `docker ps -f status=exited -q`
+  967  ssh ansible@localhost -p 2221
+  968  curl localhost
+  969  exit
+  970  docker restart `docker ps -f status=exited -q`
+  971  curl localhost
+  972  sudo ufw status
+  973  sudo ufw allow 80/tcp
+  974  curl localhost
+  975  sudo apt install nginx
+  976  curl localhost
+  977  sudo systemctl stop nginx
+  978  sudo apt-get purge nginx
+  979  sudo apt-get autoremove
+  980  curl localhost
+  981  git clone https://github.com/diranetafen/cursus-devops.git
+  982  cd cursus-devops/tower/
+  983  ls
+  984  tar -xzvf awx.tar.gz -C ~/
+  985  cd ~/.awx/awxcompose/
+  986  ls
+  987  vim docker-compose.yml 
+  988  docker-compose up -d
+  989  curl localhost
+  990  sudo ufw status
+  991  docker ps -a
+  992  docker restart `docker ps -f status=exited -q`
+  993  docker ps -a
+  994  ssh ansible@localhost -p 2221
+  995  docker ps -a
+  996  docker restart `docker ps -f status=exited -q`
+  997  ssh ansible@localhost -p 2221
+  998  docker restart `docker ps -f status=exited -q`
+  999  ssh ansible@localhost -p 2221
+ 1000  docker ps -a
+ 1001  ls
+ 1002  ssh ansible@localhost -p 2221
+ 1003  ls
+ 1004  docker restart `docker ps -f status=exited -q`
+ 1005  docker ps -a
+ 1006  docker restart `docker ps -f status=exited -q`
+ 1007  ssh ansible@localhost -p 2221
+ 1008  exit
+ 1009  docker restart `docker ps -f status=exited -q`
+ 1010  ssh ansible@localhost -p 2221
+ 1011  git
+ 1012  ls
+ 1013  mkdir example
+ 1014  ls
+ 1015  cd example/
+ 1016  ls
+ 1017  vim readme.md
+ 1018  ls
+ 1019  cat readme.md 
+ 1020  git init
+ 1021  ls
+ 1022  echo "bonjour les amis" > miki.txt
+ 1023  ls
+ 1024  git status
+ 1025  ls
+ 1026  git add miki.txt readme.md 
+ 1027  git status
+ 1028  touch f1.txt f2.txt f3.txt
+ 1029  ls
+ 1030  echo "f1.txt" > .gitignore
+ 1031  ll
+ 1032  cat .gitignore 
+ 1033  echo "f2.txt" >> .gitignore
+ 1034  cat .gitignore 
+ 1035  ls
+ 1036  git add .
+ 1037  git status
+ 1038  git commit -m "xxxxxxxxxxxxxx"
+ 1039  cd example/
+ 1040  git status
+ 1041  ls
+ 1042  git add .
+ 1043  git status
+ 1044  git branch -M main
+ 1045  git remote add origin https://github.com/louismichel100/princesse-eric.git
+ 1046  git push -u origin main
+ 1047  echo "la can des lons" > toto.txt
+ 1048  ls
+ 1049  git add toto.txt 
+ 1050  git commit -m "commit du fichier toto"
+ 1051  git status
+ 1052  git push -u origin main
+ 1053  ls
+ 1054  cat toto.txt 
+ 1055  echo "deuxieme ligne" >> toto.txt 
+ 1056  echo "troisieme ligne" >> toto.txt 
+ 1057  cat toto.txt 
+ 1058  git add -A
+ 1059  git status
+ 1060  git commit -m "modification du fichier toto"
+ 1061  git push -u origin main
+ 1062  history
+ 1063  ls
+ 1064  git branch --help
+ 1065  touch zoro.txt
+ 1066  ls
+ 1067  git branch create eis
+ 1068  git branch -M create eis
+ 1069  git branch eis
+ 1070  git branch -M eis
+ 1071  git branch 
+ 1072  git branch -M eis
+ 1073  git add zoro.txt 
+ 1074  git status
+ 1075  git checkout eis
+ 1076  git commit -m "commit sur la nouvelle branche"
+ 1077  git push -u origin main
+ 1078  git push -u origin eis
+ 1079  ssh ansible@localhost -p 2221
+ 1080  docker ps -a
+ 1081  docker restart `docker ps -f status=exited -q`
+ 1082  ssh ansible@localhost -p 2221
+ 1083  ssh ansible@localhost -p 2221
+ 1084  ssh ansible@localhost -p 2221
+ 1085  docker restart `docker ps -f status=exited -q`
+ 1086  ssh ansible@localhost -p 2221
+ 1087  ls
+ 1088  docker ps -a
+ 1089  ls
+ 1090  ssh ansible@localhost -p 2221
+ 1091  docker restart `docker ps -f status=exited -q`
+ 1092  ssh ansible@localhost -p 2221
+ 1093  docker restart `docker ps -f status=exited -q`
+ 1094  ssh ansible@localhost -p 2221
+ 1095  ls
+ 1096  cat hist.txt 
+ 1097  ssh ansible@localhost -p 2221
+ 1098  history
+ 1099  git pull
+ 1100  ls
+ 1101  history | grep clone
+ 1102  git submodule add https://github.com/diranetafen/diveintoansible-lab.git diveintoansible-lab
+ 1103  cat history > histtt.txt
+ 1104  history > histtt.txt
