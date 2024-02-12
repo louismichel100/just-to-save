@@ -1096,3 +1096,34 @@ ssh ansible@localhost -p 2221
 ls
 cat hist.txt 
 ssh ansible@localhost -p 2221
+history
+ls
+cd cursus-devops/
+lq
+ls
+cd ..
+git init
+git add .
+history | grep cursus-devops/
+ll
+ls
+echo "cursus-devops/" >> .gitignore
+echo "example/" >> .gitignore
+echo ".awx/pgdocker/10/data/" >> .gitignore
+git add .
+git commit -m "just to save"
+git branch -M main
+git remote add origin https://github.com/louismichel100/just-to-save.git
+git push -u origin main
+git remote add origin https://github.com/louismichel100/just-to-save.git
+git remote remove origin
+git remote add origin https://github.com/louismichel100/just-to-save.git
+git branch -M main
+git remote add origin https://github.com/louismichel100/just-to-save.git
+git push -u origin main
+ls
+sudo rm -r cursus-devops/ hist.txt script.sh dind/ example/ new/ soft/ 
+ls
+cd diveintoansible-lab/
+ls
+exit

@@ -1,0 +1,9 @@
+[submodule "diveintoansible-lab"]
+	path = diveintoansible-lab
+	url = https://github.com/diranetafen/diveintoansible-lab.git
+[submodule "cursus-devops"]
+	path = cursus-devops
+	url = https://github.com/diranetafen/cursus-devops.git
+[submodule "dind"]
+	path = dind
+	url = https://github.com/neocrym/dind.git
