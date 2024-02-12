@@ -11,12 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:x
+|2,0,1707757733,,"x"
+:q
+|2,0,1707757627,,"q"
 :wq
-|2,0,1706452310,,"wq"
+|2,0,1707601519,,"wq"
+:qa!
+|2,0,1706608492,,"qa!"
+:wq!
+|2,0,1706607952,,"wq!"
 ::qa!
 |2,0,1706365133,,":qa!"
-:qa!
-|2,0,1706364908,,"qa!"
 :WQ
 |2,0,1706025724,,"WQ"
 
@@ -29,280 +35,281 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	 export KUBECONFIG=/etc/kubernetes/admin.conf
+|3,1,1,1,1,0,1707757728," export KUBECONFIG=/etc/kubernetes/admin.conf"
+"2	LINE	0
+	  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+|3,0,2,1,1,0,1707757727,"  sudo chown $(id -u):$(id -g) $HOME/.kube/config"
+"3	LINE	0
+	  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+|3,0,3,1,1,0,1707757726,"  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config"
+"4	LINE	0
+	 mkdir -p $HOME/.kube
+|3,0,4,1,1,0,1707757726," mkdir -p $HOME/.kube"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1707757726,""
+"6	LINE	0
+	sudo kubeadm init --pod-network-cidr 192.168.0.0/16 --kubernetes-version 1.24.0
+|3,0,6,1,1,0,1707757725,"sudo kubeadm init --pod-network-cidr 192.168.0.0/16 --kubernetes-version 1.24.0"
 
 # File marks:
-'0  10  25  ~/dind/docker-compose.yml
-|4,48,10,25,1706452310,"~/dind/docker-compose.yml"
-'1  27  17  ~/dind/docker-compose.yml
-|4,49,27,17,1706452241,"~/dind/docker-compose.yml"
-'2  29  17  ~/dind/docker-compose.yml
-|4,50,29,17,1706452241,"~/dind/docker-compose.yml"
-'3  26  12  ~/dind/docker-compose.yml
-|4,51,26,12,1706452088,"~/dind/docker-compose.yml"
-'4  26  12  ~/dind/docker-compose.yml
-|4,52,26,12,1706452088,"~/dind/docker-compose.yml"
-'5  28  12  ~/dind/docker-compose.yml
-|4,53,28,12,1706452088,"~/dind/docker-compose.yml"
-'6  28  12  ~/dind/docker-compose.yml
-|4,54,28,12,1706452088,"~/dind/docker-compose.yml"
-'7  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,55,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
-'8  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,56,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
-'9  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,57,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
+'0  65  0  ~/script.sh
+|4,48,65,0,1707757733,"~/script.sh"
+'1  1  0  ~/script.sh
+|4,49,1,0,1707757627,"~/script.sh"
+'2  1  0  ~/script.sh
+|4,50,1,0,1707757627,"~/script.sh"
+'3  1  0  ~/script.sh
+|4,51,1,0,1707757544,"~/script.sh"
+'4  1  0  ~/script.sh
+|4,52,1,0,1707757544,"~/script.sh"
+'5  3  51  ~/example/readme.md
+|4,53,3,51,1707601519,"~/example/readme.md"
+'6  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,54,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+'7  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,55,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+'8  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,56,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+'9  131  16  ~/diveintoansible-lab/docker-compose.yaml
+|4,57,131,16,1707226689,"~/diveintoansible-lab/docker-compose.yaml"
 
 # Jumplist (newest first):
--'  10  25  ~/dind/docker-compose.yml
-|4,39,10,25,1706452310,"~/dind/docker-compose.yml"
--'  27  17  ~/dind/docker-compose.yml
-|4,39,27,17,1706452264,"~/dind/docker-compose.yml"
--'  29  17  ~/dind/docker-compose.yml
-|4,39,29,17,1706452241,"~/dind/docker-compose.yml"
--'  26  12  ~/dind/docker-compose.yml
-|4,39,26,12,1706452212,"~/dind/docker-compose.yml"
--'  28  12  ~/dind/docker-compose.yml
-|4,39,28,12,1706452212,"~/dind/docker-compose.yml"
--'  28  12  ~/dind/docker-compose.yml
-|4,39,28,12,1706452088,"~/dind/docker-compose.yml"
--'  22  18  ~/dind/docker-compose.yml
-|4,39,22,18,1706452028,"~/dind/docker-compose.yml"
--'  24  18  ~/dind/docker-compose.yml
-|4,39,24,18,1706452028,"~/dind/docker-compose.yml"
--'  24  18  ~/dind/docker-compose.yml
-|4,39,24,18,1706452028,"~/dind/docker-compose.yml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  8  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,8,1706451311,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451237,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  131  27  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,131,27,1706451225,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451196,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  9  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,9,1706451150,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  127  1  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,127,1,1706451040,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  137  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,137,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  136  393  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,136,393,1706450949,"~/diveintoansible-lab/docker-compose.yaml"
--'  157  10  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,157,10,1706368662,"~/diveintoansible-lab/docker-compose.yaml"
--'  156  10  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,156,10,1706368662,"~/diveintoansible-lab/docker-compose.yaml"
--'  157  10  ~/diveintoansible-lab/docker-compose.yaml
-|4,39,157,10,1706368662,"~/diveintoansible-lab/docker-compose.yaml"
+-'  65  0  ~/script.sh
+|4,39,65,0,1707757733,"~/script.sh"
+-'  1  0  ~/script.sh
+|4,39,1,0,1707757716,"~/script.sh"
+-'  1  0  ~/script.sh
+|4,39,1,0,1707757627,"~/script.sh"
+-'  1  0  ~/script.sh
+|4,39,1,0,1707757544,"~/script.sh"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  3  51  ~/example/readme.md
+|4,39,3,51,1707601519,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  1  0  ~/example/readme.md
+|4,39,1,0,1707601487,"~/example/readme.md"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  96  20  ~/.awx/awxcompose/docker-compose.yml
+|4,39,96,20,1707513374,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513274,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  77  18  ~/.awx/awxcompose/docker-compose.yml
+|4,39,77,18,1707513261,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
+-'  1  0  ~/.awx/awxcompose/docker-compose.yml
+|4,39,1,0,1707512666,"~/.awx/awxcompose/docker-compose.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/dind/docker-compose.yml
-	*	1706452308	0
-	"	10	25
-	^	10	26
-	.	11	0
-	+	23	0
-	+	21	44
-	+	10	57
-	+	21	26
-	+	26	14
-	+	27	17
-	+	11	0
+> ~/script.sh
+	*	1707757730	0
+	"	65	0
+	^	1	0
+	.	65	0
+	+	65	0
+
+> ~/example/readme.md
+	*	1707601516	0
+	"	3	51
+	^	3	52
+	.	3	51
+	+	3	51
+
+> ~/.awx/awxcompose/docker-compose.yml
+	*	1707513371	0
+	"	96	20
+	^	96	21
+	.	96	20
+	+	26	18
+	+	48	18
+	+	63	18
+	+	74	18
+	+	96	20
 
 > ~/diveintoansible-lab/docker-compose.yaml
-	*	1706451310	0
-	"	127	8
-	^	127	9
-	.	128	0
-	+	133	38
-	+	124	38
-	+	7	391
-	+	7	94
-	+	7	11
-	+	7	36
-	+	7	54
-	+	7	72
-	+	7	96
-	+	7	108
-	+	7	127
-	+	7	143
-	+	7	162
-	+	7	183
-	+	7	201
-	+	7	229
-	+	7	257
-	+	7	276
-	+	7	296
-	+	7	339
-	+	7	364
-	+	7	377
-	+	7	9
-	+	29	27
-	+	9	0
-	+	8	7
-	+	1	12
-	+	29	26
-	+	29	44
+	*	1707226688	0
+	"	131	16
+	^	131	17
+	.	131	16
 	+	29	15
 	+	28	0
 	+	29	0
@@ -314,49 +321,194 @@
 	+	6	0
 	+	5	17
 	+	29	0
-	+	137	447
-	+	138	80
-	+	137	154
-	+	138	6
-	+	137	449
-	+	137	409
-	+	137	383
-	+	137	2
+	+	147	447
+	+	148	80
+	+	147	154
+	+	148	6
+	+	147	449
+	+	147	409
+	+	147	383
+	+	147	2
+	+	146	2
+	+	145	2
+	+	140	2
+	+	139	2
+	+	135	2
+	+	133	2
+	+	132	2
+	+	131	2
+	+	127	10
+	+	127	15
+	+	131	3
+	+	132	3
+	+	133	3
+	+	135	3
+	+	139	13
+	+	139	20
+	+	140	5
+	+	145	3
+	+	146	5
+	+	140	0
+	+	131	0
+	+	133	43
+	+	134	27
+	+	126	2
+	+	127	9
+	+	127	13
+	+	131	4
+	+	132	4
+	+	134	4
+	+	135	4
+	+	139	4
+	+	140	6
+	+	145	4
+	+	146	6
+	+	131	0
+	+	129	15
+	+	132	0
+	+	140	102
+	+	140	132
+	+	140	162
+	+	145	0
+	+	143	19
+	+	144	18
+	+	157	38
+	+	170	0
+	+	171	0
+	+	172	0
+	+	170	0
+	+	171	0
+	+	172	17
+	+	143	17
+	+	144	8
+	+	142	0
+	+	172	20
+	+	141	48
+	+	138	14
+	+	137	0
+	+	126	2
+	+	127	9
+	+	128	0
+	+	146	37
+	+	131	0
+	+	130	27
+	+	135	31
+	+	135	0
+	+	135	13
+	+	135	4
+	+	135	26
+	+	162	30
+	+	163	0
+	+	135	29
+	+	135	47
+	+	135	18
+	+	135	37
+	+	146	38
+	+	154	12
+	+	135	28
+	+	135	29
+	+	136	18
+	+	130	0
+	+	131	16
+
+> ~/diveintoansible-lab/docker-compose_res.yaml
+	*	1707064502	0
+	"	147	0
+	^	147	0
+	.	147	0
+	+	147	0
+
+> ~/diveintoansible-lab/test_dive/diveintoansible-lab/docker-compose.yaml
+	*	1707061164	0
+	"	164	0
+	^	164	0
+
+> ~/diveintoansible-lab/.env
+	*	1707060814	0
+	"	34	25
+	^	34	26
+	.	23	17
+	+	20	22
+	+	23	17
+
+> ~/diveintoansible-lab/docker-compose2.yaml
+	*	1706626064	0
+	"	132	11
+	^	132	12
+	.	133	0
 	+	136	2
 	+	135	2
 	+	134	2
 	+	133	2
 	+	132	2
+	+	131	2
 	+	130	2
 	+	129	2
 	+	128	2
-	+	127	10
-	+	127	15
-	+	128	3
-	+	129	3
-	+	130	3
-	+	132	3
-	+	133	13
-	+	133	20
-	+	134	5
-	+	135	3
-	+	136	5
-	+	134	0
-	+	128	0
-	+	130	43
-	+	131	27
-	+	126	2
-	+	127	9
-	+	127	13
-	+	128	4
-	+	129	4
-	+	131	4
-	+	132	4
+	+	127	2
+	+	132	18
 	+	133	4
-	+	134	6
+	+	134	19
 	+	135	4
-	+	136	6
-	+	128	0
+	+	134	12
+	+	133	0
+
+> ~/dind/Dockerfile
+	*	1706610188	0
+	"	60	14
+	^	60	15
+	.	60	14
+	+	58	21
+	+	60	14
+	+	65	42
+	+	59	11
+	+	60	11
+	+	59	14
+	+	60	14
+
+> ~/dind/docker-compose.yml
+	*	1706610162	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	29	0
+	+	27	44
+	+	15	57
+	+	27	26
+	+	31	14
+	+	31	31
+	+	17	0
+	+	4	7
+	+	31	13
+	+	1	12
+	+	35	20
+	+	16	24
+	+	29	20
+	+	13	18
+	+	33	20
+	+	4	7
+	+	11	18
+	+	1	12
+
+> ~/dind/docker-compose.yaml
+	*	1706608487	0
+	"	1	0
+
+> ~/diveintoansible-lab/docker-compose.yml
+	*	1706607916	0
+	"	1	0
+
+> ~/diveintoansible-lab/docker-compose
+	*	1706607626	0
+	"	1	0
+
+> ~/Dockerfile
+	*	1706604345	0
+	"	1	0
+
+> ~/dind/entrypoint.sh
+	*	1706604186	0
+	"	1	0
 
 > ~/diveintoansible-lab/docker-compose100.yaml
 	*	1706367865	0
@@ -382,14 +534,6 @@
 	.	144	0
 	+	140	34
 	+	144	0
-
-> ~/diveintoansible-lab/.env
-	*	1706095974	0
-	"	34	26
-	^	34	27
-	.	23	17
-	+	20	22
-	+	23	17
 
 > ~/.bashrc
 	*	1706021496	0
